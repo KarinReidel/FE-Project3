@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}/*обертка*/
+.wrapper {
+    width: 60%;
+    margin: auto;
+}
+/*мои навыки*/
+.skills{
+    padding: 100px 0;
+}
+.skills-wrapper{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills-info{
+    width: 40%;
+}
+.skills-title{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.skill-scale:not(:last-child){
+    margin-bottom: 30px;
+}
+.skill-name{
+    color: grey;
+    margin-bottom: 20px;
+}
+.skill-scale-outer{
+    height: 4px;
+    background-color: rgb(189, 186, 183);
+}
+.skill-scale-inner{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(110, 110, 215);
+}
+.skills-img{
+    display: block;
+    width: 50%;
+}
+.process {
+    padding: 100px 0;
+    background-color: rgb(237, 227, 227);
+}
+.process-title {
+    font-weight: 500;
+font-size: 32px;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+}
+.process-descr{
+    width: 50%;
+    margin:50px auto 60px; /*top right-left bottom*/
+    color:grey;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.process-video {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects-item{
+  width: 25%;
+  aspect-ratio: 1/1;
+  background-size: cover;
+}
+.sticker{
+    background-image: url(../Project5/images/sticker.png);   
+}
+.laptop{
+    background-image: url(../Project5/images/laptop.png);
+}
+.projects-item-inner{
+    height: 100%;
+    background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8));
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-item-inner:hover {
+    opacity: 1;
+}
+.form{
+    background-color: aliceblue;
+    padding: 100px 0;
+}
+.form-wrapper{
+    width: 30%;
+    margin: auto;
+}
+
+.form-title{
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+.form-descr{
+    color: gray;
+    margin: 50px 0 65px;
+    text-align: center;
+    line-height: 20px;
+}
+.form-control{
+    display: flex;
+    justify-content: space-between;
+    
+}
+input[name="name"], input[name="email"] {
+    width: 45%;
+    padding: 20px;
+    border: none;
+    outline: none;
+}
+textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin: 20px 0 50px;
+    font-family: 'Roboto', sans-serif ;
+}
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    padding: 20px 45px;
+    background-color:#34547A ;
+    border: none;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+}
